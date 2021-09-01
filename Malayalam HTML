@@ -1,0 +1,252 @@
+<html>
+<head>
+
+<title>videojs-contrib-hls embed</title>
+  
+  <!--
+
+  Uses the latest versions of video.js and videojs-contrib-hls.
+
+  To use specific versions, please change the URLs to the form:
+
+  <link href="https://vjs.zencdn2.net/5.16.0/video-js.css" rel="stylesheet">
+  <script src="https://vjs.zencdn2.net/5.16.0/video.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  -->
+
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet"></link>
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  
+<head>
+
+
+<div style="position: fixed;   top: 0px; width: 100%"><center>
+<video id="my-video" class="video-js vjs-default-skin vjs-fluid" controls preload="none"
+  width="640" height="364" poster="https://www.appcreator24.com/srv/imgs/gen/1536311_icohome.png?ts=1625859062" data-setup="{}">
+     
+   <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <li  data-url=="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+ </div>
+</body>
+</html>
+    <ul id="playlist">
+
+  <script>
+  $(function(){
+$("#playlist li").on("click", function() {
+var player = videojs('my-video');
+player.pause();
+var new_url = $(this).attr("data-url");
+player.src(new_url);
+// set src track corresponding to new movie //
+player.load();
+player.play();
+});
+});</script>
+	<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+
+    </head>
+		<body>
+
+<body>
+ <ul id="playlisT">
+<div style="align=center; padding-top: 55%;">
+<h4 style="text-align: center;">MALLU TV</h4>
+<ul style="list-style-type:none">
+<style>ul{padding-left:0px; text-align:center;}
+li{ display:inline-block;padding:0px;}
+</style>
+
+
+<li data-url="https://y5w8j4a9.ssl.hwcdn.net/livingfoodzhd/tracks-v2a1/mono.m3u8"><img src="https://static.wikia.nocookie.net/logopedia/images/2/2c/Zee_Keralam-HD.png"  border="3px"></li>
+
+<li data-url="https://dr1zhpsuem5f4.cloudfront.net/master.m3u8"><img src="https://i.imgur.com/Ptu1AYr.png"  border="3px"></li>
+  
+<li data-url="https://idvd.multitvsolution.com/idvo/kairaliarabia_540p/index.m3u8"><img src="https://i.imgur.com/u5gY8fB.png"  border="3px"></li>
+  
+<li data-url="https://live.wmncdn.net/kaumuditv1/live.stream/chunks.m3u8"><img src="https://i.imgur.com/5ukchGM.png"  border="3px"></li>
+  
+<li data-url="https://kcltv.livebox.co.in/kclhls/live.m3u8"><img src="https://kcltv.com/images/logo.jpg"  border="3px"></li>
+  
+<li data-url="https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/chunks.m3u8"><img src="https://i.imgur.com/w881DVW.png"  border="3px"></li>
+  
+<li data-url="https://acv.asianetmobiletvplus.com/webstreams/8f8e72769cb3e3a6e27c220e1e3887b8.smil/playlist.m3u8"><img src="https://i.imgur.com/UBZg9Yl.png"  border="3px"></li>
+  
+<li data-url="https://acv.asianetmobiletvplus.com/webstreams/021c9292219a98f899a7b74f0f34baa7.smil/playlist.m3u8"><img src="https://4.bp.blogspot.com/-lxcJENlj8AQ/WI9XpVuPQKI/AAAAAAAADTk/cPv3FfXtuyc4gmVzNXRqSMGMOw9GOt8vwCLcB/s1600/ut.png"  border="3px"></li>
+  
+<li data-url="https://acv.asianetmobiletvplus.com/webstreams/7eb4dc1f3240c8eb776d41b95bd1d197.smil/playlist.m3u8"><img src="https://www.nettv.live/uploads/allimg/19/1-1911231330170-L.jpg"  border="3px"></li>
+  
+<li data-url="https://stream.ufworldind.in/tcv/tcv/playlist.m3u8"><img src="https://raw.githubusercontent.com/poovarasanvasudevan/iptvapi/main/extras/images/1622645536_IMG_20210602_201956.jpg"  border="3px"></li>
+  
+<li data-url="https://5k8q87bpdy4v-hls-live.wmncdn.net/mtvnews/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8"><img src="https://scontent.fcok6-1.fna.fbcdn.net/v/t1.6435-9/82959074_2682105782065216_538138906604863488_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=174925&_nc_ohc=kt2TukMYDeEAX_HRFuj&_nc_ht=scontent.fcok6-1.fna&oh=d80f60f13a1f7b608b5b017fc5b05b06&oe=60EDE2E6"  border="3px"></li>
+  
+<li data-url="https://live.neestream.com/neestream_01/nee_cinema/tracks-v1a1/mono.m3u8"><img src="https://scontent.fcok6-1.fna.fbcdn.net/v/t1.6435-9/182787725_1174609016390586_2799280797028503982_n.png?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=YrwjO_BL7bYAX-ELcgq&_nc_ht=scontent.fcok6-1.fna&oh=73549b979548ddbabfc1e3b11b7d05f4&oe=60EE1D2B"  border="3px"></li>
+  
+<li data-url="https://live-anandtv.anandmedia.net/anandtvapp/anandtv/tracks-v1a1/mono.m3u8"><img src="https://scontent.fcok6-1.fna.fbcdn.net/v/t1.6435-9/100086833_2690584971211552_2194978706324193280_n.png?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ucII8tNGsxAAX8AHqzn&_nc_ht=scontent.fcok6-1.fna&oh=d35026347d9f47b81024c614ecf3929d&oe=60EE5AF0"  border="3px"></li>
+  
+<li data-url="https://og2qd3aal7an-hls-live.5centscdn.com/garshomtv/d0dbe915091d400bd8ee7f27f0791303.sdp/chunks.m3u8"><img src="https://watchindia.net/images/channels/malayalam/Garshom_TV.png"  border="3px"></li>
+  
+<li data-url="https://stream.ufworldind.in/kentvlive/smil:kentv.smil/chunklist_w798833817_b456000_sleng.m3u8"><img src="https://scontent.fcok6-1.fna.fbcdn.net/v/t1.6435-9/117772285_138110017965077_142562777914826233_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=EmStuy85s8oAX9vCu-5&_nc_ht=scontent.fcok6-1.fna&oh=27a30fbc08532314ee674606763bb711&oe=60EDB8A5"  border="3px"></li>
+  
+<li data-url="https://stream.ufworldind.in/live/kvision/chunklist_w620856414.m3u8"><img src="https://scontent.fcok6-1.fna.fbcdn.net/v/t1.6435-9/46511033_2049614785285392_1473378557978738688_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=yfUVhAeSpWYAX8J88ft&_nc_ht=scontent.fcok6-1.fna&oh=3e3bf3f597ea047b66b461299f12e70b&oe=60ED75B9"  border="3px"></li>
+  
+<li data-url="https://bnwdplewrp3a-hls-live.wmncdn.net/kannur1/d0dbe915091d400bd8ee7f27f0791303.sdp/chunks.m3u8"><img src="https://scontent.fcok6-1.fna.fbcdn.net/v/t1.6435-9/120973414_709267576343530_6726845808080666107_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=SraE0x9v4TcAX_FaVo1&tn=BOW5gvfStOBSXDSR&_nc_ht=scontent.fcok6-1.fna&oh=8f7abffdd98b8c5d1a52a3d777c8ea5e&oe=60EEEC0E"  border="3px"></li>
+  
+<li data-url="https://cloudflare-cdn301.ottpro.in/vettam/vettam/chunklist_w1840818985.m3u8"><img src="https://scontent.fcok6-1.fna.fbcdn.net/v/t1.18169-9/17795714_1302535716466739_5649512337795091891_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=UCYPQbBx_HAAX_l9MJS&_nc_ht=scontent.fcok6-1.fna&oh=f0c25317bad63ee9bfe7da16ebdb93e0&oe=60ED657A"  border="3px"></li>
+  
+<li data-url="https://app.m4stream.live/mfourmalayalamhls/live.m3u8"><img src="https://m4tv.com.au/assests/images/logo.png"  border="3px"></li>
+  
+<li data-url="https://gvjyg2n9doem-hls-live.5centscdn.com/navmediastream/d0dbe915091d400bd8ee7f27f0791303.sdp/chunks.m3u8"><img src="https://scontent.fcok6-1.fna.fbcdn.net/v/t1.6435-9/52595756_2057381627893959_5176026184042938368_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ks-XvfeIKI0AX_4jYGD&tn=BOW5gvfStOBSXDSR&_nc_ht=scontent.fcok6-1.fna&oh=7852bade3cdf37d5a5ca9ce7f0a384f0&oe=60EDEF04"  border="3px"></li>
+
+
+ </section> 				
+						         </div>
+						        <br> <hr size="0.7" color="#444">
+						      <h5   <p style="text-align: center;">© Powered by Mallu TV</span></span></p>
+	</div>
+
+<style>
+img{border-radius: 20px ; border-color: white; padding: 2px; margin:5px; height:85px; width: 85px;}
+		body{background-color: #1a1a1a;}
+        </style>
+<style>
+  body {
+  margin-left:0px;
+  margin-right:0px;
+    margin-top: 0px;
+    background: #222;
+    text-align: center; 
+    color: #aaa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+</style>
+
+<script id="wpcp_disable_selection" type="text/javascript">
+//<![CDATA[
+var image_save_msg='You Can Not Save images!';
+	var no_menu_msg='Context Menu disabled!';
+	var smessage = "Content is protected !!";
+
+function disableEnterKey(e)
+{
+	if (e.ctrlKey){
+     var key;
+     if(window.event)
+          key = window.event.keyCode;     //IE
+     else
+          key = e.which;     //firefox (97)
+    //if (key != 17) alert(key);
+     if (key == 97 || key == 65 || key == 67 || key == 99 || key == 88 || key == 120 || key == 26 || key == 85  || key == 86 || key == 83 || key == 43)
+     {
+          show_wpcp_message('You are not allowed to copy content or view source');
+          return false;
+     }else
+     	return true;
+     }
+}
+
+function disable_copy(e)
+{	
+	var elemtype = e.target.nodeName;
+	var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+	elemtype = elemtype.toUpperCase();
+	var checker_IMG = '';
+	if (elemtype == "IMG" && checker_IMG == 'checked' && e.detail >= 2) {show_wpcp_message(alertMsg_IMG);return false;}
+	if (elemtype != "TEXT" && elemtype != "TEXTAREA" && elemtype != "INPUT" && elemtype != "PASSWORD" && elemtype != "SELECT" && elemtype != "OPTION" && elemtype != "EMBED")
+	{
+		if (smessage !== "" && e.detail == 2)
+			show_wpcp_message(smessage);
+		
+		if (isSafari)
+			return true;
+		else
+			return false;
+	}	
+}
+function disable_copy_ie()
+{
+	var elemtype = window.event.srcElement.nodeName;
+	elemtype = elemtype.toUpperCase();
+	if (elemtype == "IMG") {show_wpcp_message(alertMsg_IMG);return false;}
+	if (elemtype != "TEXT" && elemtype != "TEXTAREA" && elemtype != "INPUT" && elemtype != "PASSWORD" && elemtype != "SELECT" && elemtype != "OPTION" && elemtype != "EMBED")
+	{
+		//alert(navigator.userAgent.indexOf('MSIE'));
+			//if (smessage !== "") show_wpcp_message(smessage);
+		return false;
+	}
+}	
+function reEnable()
+{
+	return true;
+}
+document.onkeydown = disableEnterKey;
+document.onselectstart = disable_copy_ie;
+if(navigator.userAgent.indexOf('MSIE')==-1)
+{
+	document.onmousedown = disable_copy;
+	document.onclick = reEnable;
+}
+function disableSelection(target)
+{
+    //For IE This code will work
+    if (typeof target.onselectstart!="undefined")
+    target.onselectstart = disable_copy_ie;
+    
+    //For Firefox This code will work
+    else if (typeof target.style.MozUserSelect!="undefined")
+    {target.style.MozUserSelect="none";}
+    
+    //All other  (ie: Opera) This code will work
+    else
+    target.onmousedown=function(){return false}
+    target.style.cursor = "default";
+}
+//Calling the JS function directly just after body load
+window.onload = function(){disableSelection(document.body);};
+//]]>
+</script>
+	<script id="wpcp_disable_Right_Click" type="text/javascript">
+	//<![CDATA[
+	document.ondragstart = function() { return false;}
+	/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	Disable context menu on images by GreenLava Version 1.0
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+	    function nocontext(e) {
+	       return false;
+	    }
+	    document.oncontextmenu = nocontext;
+	//]]>
+	</script>
+<style>
+.unselectable
+{
+-moz-user-select:none;
+-webkit-user-select:none;
+cursor: default;
+}
+html
+{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+</style>
+<script id="wpcp_css_disable_selection" type="text/javascript">
+var e = document.getElementsByTagName('body')[0];
+if(e)
+{
+	e.setAttribute('unselectable',on);
+}
+</script>
